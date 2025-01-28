@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1E1E1E;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #1E1E1E;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00FFCB;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #00FFCB;
+}
+
+.btn {
+    background-color: #00FFCB;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #00D8B0;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.intro {
+    font-size: 1.2rem;
+    color: #00FFCB;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.role {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #E8E8E8;
+}
+
+.description {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #CCCCCC;
+}
+
+.hero-image img {
+    width: 350px;
+    border-radius: 50%;
+
+
+    .information-section {
+    padding: 20px;
+    background-color: #fff;
+    border-top: 2px solid #ddd;
+}
+
+.information-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
+
+.information-section p {
+    margin-bottom: 15px;
+    color: #444;
+    line-height: 1.8;
+}
+
+
+}
